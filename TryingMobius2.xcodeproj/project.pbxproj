@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD17E7F262CA83600D5CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD17E7E262CA83600D5CAF5 /* AppDelegate.swift */; };
+		4DD17E81262CA83600D5CAF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD17E80262CA83600D5CAF5 /* SceneDelegate.swift */; };
+		4DD17E83262CA83600D5CAF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD17E82262CA83600D5CAF5 /* ViewController.swift */; };
+		4DD17E86262CA83600D5CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD17E84262CA83600D5CAF5 /* Main.storyboard */; };
+		4DD17E88262CA83B00D5CAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD17E87262CA83B00D5CAF5 /* Assets.xcassets */; };
+		4DD17E8B262CA83B00D5CAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD17E89262CA83B00D5CAF5 /* LaunchScreen.storyboard */; };
+		4DD17E96262CA83C00D5CAF5 /* TryingMobius2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD17E95262CA83C00D5CAF5 /* TryingMobius2Tests.swift */; };
+		4DD17EA2262CA8E900D5CAF5 /* MobiusCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD17EA1262CA8E900D5CAF5 /* MobiusCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD17E92262CA83B00D5CAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD17E73262CA83600D5CAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD17E7A262CA83600D5CAF5;
+			remoteInfo = TryingMobius2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DD17E7B262CA83600D5CAF5 /* TryingMobius2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryingMobius2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD17E7E262CA83600D5CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD17E80262CA83600D5CAF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DD17E82262CA83600D5CAF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DD17E85262CA83600D5CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD17E87262CA83B00D5CAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD17E8A262CA83B00D5CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD17E8C262CA83B00D5CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD17E91262CA83B00D5CAF5 /* TryingMobius2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryingMobius2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD17E95262CA83C00D5CAF5 /* TryingMobius2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingMobius2Tests.swift; sourceTree = "<group>"; };
+		4DD17E97262CA83C00D5CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD17E78262CA83600D5CAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD17EA2262CA8E900D5CAF5 /* MobiusCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD17E8E262CA83B00D5CAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD17E72262CA83600D5CAF5 = {
+			isa = PBXGroup;
+			children = (
+				4DD17E7D262CA83600D5CAF5 /* TryingMobius2 */,
+				4DD17E94262CA83C00D5CAF5 /* TryingMobius2Tests */,
+				4DD17E7C262CA83600D5CAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD17E7C262CA83600D5CAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD17E7B262CA83600D5CAF5 /* TryingMobius2.app */,
+				4DD17E91262CA83B00D5CAF5 /* TryingMobius2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD17E7D262CA83600D5CAF5 /* TryingMobius2 */ = {
+			isa = PBXGroup;
+			children = (
+				4DD17E7E262CA83600D5CAF5 /* AppDelegate.swift */,
+				4DD17E80262CA83600D5CAF5 /* SceneDelegate.swift */,
+				4DD17E82262CA83600D5CAF5 /* ViewController.swift */,
+				4DD17E84262CA83600D5CAF5 /* Main.storyboard */,
+				4DD17E87262CA83B00D5CAF5 /* Assets.xcassets */,
+				4DD17E89262CA83B00D5CAF5 /* LaunchScreen.storyboard */,
+				4DD17E8C262CA83B00D5CAF5 /* Info.plist */,
+			);
+			path = TryingMobius2;
+			sourceTree = "<group>";
+		};
+		4DD17E94262CA83C00D5CAF5 /* TryingMobius2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD17E95262CA83C00D5CAF5 /* TryingMobius2Tests.swift */,
+				4DD17E97262CA83C00D5CAF5 /* Info.plist */,
+			);
+			path = TryingMobius2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD17E7A262CA83600D5CAF5 /* TryingMobius2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD17E9A262CA83C00D5CAF5 /* Build configuration list for PBXNativeTarget "TryingMobius2" */;
+			buildPhases = (
+				4DD17E77262CA83600D5CAF5 /* Sources */,
+				4DD17E78262CA83600D5CAF5 /* Frameworks */,
+				4DD17E79262CA83600D5CAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryingMobius2;
+			packageProductDependencies = (
+				4DD17EA1262CA8E900D5CAF5 /* MobiusCore */,
+			);
+			productName = TryingMobius2;
+			productReference = 4DD17E7B262CA83600D5CAF5 /* TryingMobius2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD17E90262CA83B00D5CAF5 /* TryingMobius2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD17E9D262CA83C00D5CAF5 /* Build configuration list for PBXNativeTarget "TryingMobius2Tests" */;
+			buildPhases = (
+				4DD17E8D262CA83B00D5CAF5 /* Sources */,
+				4DD17E8E262CA83B00D5CAF5 /* Frameworks */,
+				4DD17E8F262CA83B00D5CAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD17E93262CA83B00D5CAF5 /* PBXTargetDependency */,
+			);
+			name = TryingMobius2Tests;
+			productName = TryingMobius2Tests;
+			productReference = 4DD17E91262CA83B00D5CAF5 /* TryingMobius2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD17E73262CA83600D5CAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Angela Garrovillas";
+				TargetAttributes = {
+					4DD17E7A262CA83600D5CAF5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					4DD17E90262CA83B00D5CAF5 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 4DD17E7A262CA83600D5CAF5;
+					};
+				};
+			};
+			buildConfigurationList = 4DD17E76262CA83600D5CAF5 /* Build configuration list for PBXProject "TryingMobius2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD17E72262CA83600D5CAF5;
+			packageReferences = (
+				4DD17EA0262CA8E900D5CAF5 /* XCRemoteSwiftPackageReference "Mobius.swift" */,
+			);
+			productRefGroup = 4DD17E7C262CA83600D5CAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD17E7A262CA83600D5CAF5 /* TryingMobius2 */,
+				4DD17E90262CA83B00D5CAF5 /* TryingMobius2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD17E79262CA83600D5CAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD17E8B262CA83B00D5CAF5 /* LaunchScreen.storyboard in Resources */,
+				4DD17E88262CA83B00D5CAF5 /* Assets.xcassets in Resources */,
+				4DD17E86262CA83600D5CAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD17E8F262CA83B00D5CAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD17E77262CA83600D5CAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD17E83262CA83600D5CAF5 /* ViewController.swift in Sources */,
+				4DD17E7F262CA83600D5CAF5 /* AppDelegate.swift in Sources */,
+				4DD17E81262CA83600D5CAF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD17E8D262CA83B00D5CAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD17E96262CA83C00D5CAF5 /* TryingMobius2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD17E93262CA83B00D5CAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD17E7A262CA83600D5CAF5 /* TryingMobius2 */;
+			targetProxy = 4DD17E92262CA83B00D5CAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD17E84262CA83600D5CAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD17E85262CA83600D5CAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD17E89262CA83B00D5CAF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD17E8A262CA83B00D5CAF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD17E98262CA83C00D5CAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD17E99262CA83C00D5CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD17E9B262CA83C00D5CAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TryingMobius2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = flPafRsnOsJ.TryingMobius2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD17E9C262CA83C00D5CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TryingMobius2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = flPafRsnOsJ.TryingMobius2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DD17E9E262CA83C00D5CAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TryingMobius2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = flPafRsnOsJ.TryingMobius2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryingMobius2.app/TryingMobius2";
+			};
+			name = Debug;
+		};
+		4DD17E9F262CA83C00D5CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TryingMobius2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = flPafRsnOsJ.TryingMobius2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryingMobius2.app/TryingMobius2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD17E76262CA83600D5CAF5 /* Build configuration list for PBXProject "TryingMobius2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD17E98262CA83C00D5CAF5 /* Debug */,
+				4DD17E99262CA83C00D5CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD17E9A262CA83C00D5CAF5 /* Build configuration list for PBXNativeTarget "TryingMobius2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD17E9B262CA83C00D5CAF5 /* Debug */,
+				4DD17E9C262CA83C00D5CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD17E9D262CA83C00D5CAF5 /* Build configuration list for PBXNativeTarget "TryingMobius2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD17E9E262CA83C00D5CAF5 /* Debug */,
+				4DD17E9F262CA83C00D5CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DD17EA0262CA8E900D5CAF5 /* XCRemoteSwiftPackageReference "Mobius.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/Mobius.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DD17EA1262CA8E900D5CAF5 /* MobiusCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD17EA0262CA8E900D5CAF5 /* XCRemoteSwiftPackageReference "Mobius.swift" */;
+			productName = MobiusCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DD17E73262CA83600D5CAF5 /* Project object */;
+}
